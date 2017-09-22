@@ -1,2 +1,7 @@
 type goodix_data_file, file_type, data_file_type;
 type nv_data_file, file_type;
+# debugfs
+type debugfs_ion, fs_type, debugfs_type;
+
+# procfs
+type proc_wcnss_service, fs_type;
