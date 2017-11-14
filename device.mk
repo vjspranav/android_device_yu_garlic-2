@@ -206,6 +206,15 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0-java
+    libqomx_core \
+    camera.device@3.2-impl \
+    libmmcamera_interface \
+    libmmjpeg_interface \
+    android.hardware.camera.provider@2.4-impl \
+    camera.hammerhead \
+    mm-jpeg-interface-test \
+    mm-qcamera-app \
+    Snap
 
 # IPA Manager
 PRODUCT_PACKAGES += \
