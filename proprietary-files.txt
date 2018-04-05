@@ -216,7 +216,7 @@ vendor/lib/libmmcamera_isp_wb40.so
 
 
 # Fingerprint
-bin/gx_fpd
+bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.elan.default.so
 lib64/hw/fingerprint.goodix.default.so
 lib64/hw/gxfingerprint.default.so
