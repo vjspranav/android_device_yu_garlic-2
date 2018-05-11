@@ -53,6 +53,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := lineage_garlic_defconfig
 TARGET_KERNEL_SOURCE := kernel/yu/msm8937
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Clang
 INTERNAL_LOCAL_CLANG_EXCEPTION_PROJECTS := external/busybox/
@@ -113,8 +114,8 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_EXCLUDE_SUPERSU := true
-TW_IGNORE_MISC_WIPE_DATA := true
 TW_NEW_ION_HEAP := true
+TW_INPUT_BLACKLIST := "hbtp_vm"
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
