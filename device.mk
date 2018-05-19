@@ -205,7 +205,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
-    android.hidl.manager@1.0-java
+    android.hidl.manager@1.0-java \
     libqomx_core \
     camera.device@3.2-impl \
     libmmcamera_interface \
